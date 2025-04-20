@@ -14,8 +14,8 @@ from datetime import datetime
 from tkinter import scrolledtext
 from PIL import Image, ImageTk  # Import PIL for image handling
 
-genai.configure(api_key='AIzaSyBcfEWZEhEwhwNMvb6C9sZPikjuY9UBe6I')
-model = genai.GenerativeModel('gemini-1.5-pro')
+genai.configure(api_key='YOUR API KEY')
+model = genai.GenerativeModel('gemini-1.5-pro') #replace with required model
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path("images")

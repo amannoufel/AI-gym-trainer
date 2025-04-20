@@ -21,14 +21,14 @@ def gym(choice):
     text_speech = pyttsx3.init()
     mp_drawing = mp.solutions.drawing_utils
     mp_pose = mp.solutions.pose
-    GOOGLE_API_KEY="AIzaSyCSc7mz3nIPxI7eLCfTOlEiUyRnXoGic7Q"
+    GOOGLE_API_KEY="YOUR API KEY"
 
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel('gemini-pro')
 
 
 
-    ip_camera_url = 'http://192.168.129.61:8080/video'
+    ip_camera_url = 'http://192.156.221.1:8080/video' #replace with your cam ip address
     print(f"Attempting to connect to IP camera stream: {ip_camera_url}")
     # captures the video
     cap = cv2.VideoCapture(ip_camera_url)

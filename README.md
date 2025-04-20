@@ -1,6 +1,4 @@
-Here's a polished and more professional version of your project description that you can directly use for your GitHub README:
 
----
 
 # AI Trainer – Your Personalized Workout Companion 🏋️‍♂️🤖
 
@@ -100,17 +98,3 @@ python main.py
 - **Mobile Support:** Port the app to Android using Kivy or a cross-platform toolkit.
 
 ---
-
-## 🧑‍💻 Contributing
-
-This is a personal passion project, but contributions are welcome! If you spot bugs or have improvement ideas, feel free to open an issue or pull request.
-
----
-
-## 📜 License
-
-[MIT License](LICENSE)
-
----
-
-Let me know if you want a badge section, GitHub Actions integration, screenshots, or demo video section added as well!
